@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="dashboard.css">
+    </head>
+    <body>
+        <div class="navigationPanel">
+            <p id="hello"></p>
+            <br><br><br>
+            <a href="dashboard.html">dashboard</a>
+            <br><br><br>
+            <a href="user.html">Users</a>
+            <br><br><br>
+            <a href="session.html">Login Session</a>
+            <br><br><br>
+            <a href="login.html">Log out</a>
+        </div>
+        <div>
+            <h3>Add user</h3>
+
+            <br>
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="date" placeholder="Date of Birth" id="dateOfBirth">
+            <br>
+            <input type="button" value="Add User" onclick="display()">
+<br>
+            <div>
+                <h2>User List</h2>
+                <table id="myTable" border="1" style="border-collapse: collapse;">
+                    <tr>
+                        <th>
+                            name
+                        </th>
+                        <th>
+                            email
+                        </th>
+                        <th>
+                            password
+                        </th>
+                        <th>
+                            birthdate
+                        </th>
+                        <th>
+                            age
+                        </th>
+                        <th>
+                            actions
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            
+
+        </div>
+       
+    </body>
+    <script src="user.js"></script>
+</html>

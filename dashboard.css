@@ -1,0 +1,30 @@
+.navigationPanel
+{
+    float: left;
+    width: 230px;
+    
+    background-color: chocolate;
+}
+a,p
+{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+}
+.dashboard
+{
+    padding: 20px;
+  display: flex;
+   justify-content: center;
+   padding: 10px;
+    margin: 10px;
+}
+.box
+{
+    height: 100px;
+    width: 150px;
+    background-color: palegreen;
+    padding: 10px;
+    margin: 10px;
+}
